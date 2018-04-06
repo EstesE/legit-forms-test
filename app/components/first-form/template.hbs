@@ -1,46 +1,42 @@
+{{#lf-form rules=rules onSubmit=(action save user) as |validateFunc isValid|}}
+    <div class="row m-b-20">
+        <div class="col-md-4">
+        {{lf-input
+            name="first_name"
+            label='First Name'
+            property=user.first_name
+            on-update=(action (mut user.first_name))
+            validate=validateFunc
+        }}
+        </div>
 
-{{#lf-form rules=rules onSubmit=(action "textInput") as |validateFunc isValid|}}
-    <div class="row">
-        <div class="col-md-12">
-            <div class="col-md-4 m-b-20">
-            {{lf-input
-                name="firstName"
-                label="First Name"
-                property=model.firstName
-                on-update=(action (mut model.firstName))
-                validate=validateFunc
-            }}
-            </div>
+        <div class="col-md-4">
+        {{lf-input
+            name="email"
+            label='email'
+            property=user.email
+            on-update=(action (mut user.email))
+            validate=validateFunc
+        }}
+        </div>
 
-            <div class="col-md-4 m-b-20">
-            {{lf-input
-                name="middleName"
-                label="Middle Name"
-                property=model.middleName
-                on-update=(action (mut model.middleName))
-                validate=validateFunc
-            }}
-            </div>
-
-            <div class="col-md-4 m-b-20">
-            {{lf-input
-                name="lastName"
-                label="Last Name"
-                property=model.lastName
-                on-update=(action (mut model.lastName))
-                validate=validateFunc
-            }}
-            </div>
+        <div class="col-md-4">
+        {{lf-input
+            name="last_name"
+            label='Last Name'
+            property=user.last_name
+            on-update=(action (mut user.last_name))
+            validate=validateFunc
+        }}
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-12">
-            <div class="col-md-4">
-                {{input class="form-control" value="Submit" type="submit" disabled=(not isValid)}}
-            </div>
+        <div class="col-md-4">
+            {{input class="form-control" value="Submit" type="submit" disabled=(not isValid)}}
         </div>
     </div>
 {{/lf-form}}
+
 
 {{yield}}

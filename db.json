@@ -1,0 +1,69 @@
+{
+    "users": [
+        [
+            {
+                "id": 1,
+                "first_name": "Devondra",
+                "last_name": "Charville",
+                "email": "dcharville0@nifty.com",
+                "username": "Devondra_Charville"
+            },
+            {
+                "id": 2,
+                "first_name": "Corey",
+                "last_name": "Spaughton",
+                "email": "cspaughton1@instagram.com",
+                "username": "Corey_Spaughton"
+            },
+            {
+                "id": 3,
+                "first_name": "Fran",
+                "last_name": "Vasyunkin",
+                "email": "fvasyunkin2@stumbleupon.com",
+                "username": "Fran_Vasyunkin"
+            },
+            {
+                "id": 4,
+                "first_name": "Iago",
+                "last_name": "Bedbury",
+                "email": "ibedbury3@google.ca",
+                "username": "Iago_Bedbury"
+            },
+            {
+                "id": 5,
+                "first_name": "Diego",
+                "last_name": "Kretchmer",
+                "email": "dkretchmer4@chronoengine.com",
+                "username": "Diego_Kretchmer"
+            },
+            {
+                "id": 6,
+                "first_name": "Linus",
+                "last_name": "Clowney",
+                "email": "lclowney5@cmu.edu",
+                "username": "Linus_Clowney"
+            },
+            {
+                "id": 7,
+                "first_name": "Karolina",
+                "last_name": "Francesco",
+                "email": "kfrancesco6@google.fr",
+                "username": "Karolina_Francesco"
+            },
+            {
+                "id": 8,
+                "first_name": "Micheline",
+                "last_name": "Hanbury",
+                "email": "mhanbury7@google.ca",
+                "username": "Micheline_Hanbury"
+            },
+            {
+                "id": 9,
+                "first_name": "Thomasina",
+                "last_name": "Strettle",
+                "email": "tstrettle8@parallels.com",
+                "username": "Thomasina_Strettle"
+            }
+        ]
+    ]
+}
