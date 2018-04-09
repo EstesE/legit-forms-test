@@ -11,10 +11,5 @@ export default Route.extend({
         return RSVP.hash({
             users: users
         });
-    },
-
-    afterModel(model) {
-        model.users = model.users[0];
     }
-
 });
